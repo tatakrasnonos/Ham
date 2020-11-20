@@ -1,0 +1,28 @@
+.buy-section-container {
+  padding: 125px 0;
+  display: grid;
+  justify-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/Sections_background/section-2.jpg') fixed no-repeat;
+  background-size: cover;
+}
+
+.buy-section-slogan {
+  margin: 0;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #18CFAB;
+}
+
+.buy-section-text {
+  font-size: 16px;
+  text-align: center;
+  color: #D8D8D8;
+}
+
+.buy-section-btn {
+  margin-top: 65px;
+  background-color: #18CFAB;
+  box-shadow: 0 -5px 0 0 white;
+}

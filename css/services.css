@@ -1,0 +1,64 @@
+.services-container {
+  margin: 0 auto 90px;
+  display: grid;
+  justify-items: center;
+}
+
+.services-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.service-tab {
+  padding: 26px 0;
+  flex-basis: 16.66%;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  color: #959697;
+  background: #F8FCFE;
+  border: 1px solid #EDEFEF;
+}
+
+.service-tab:not(:last-child) {
+  border-right: 1px solid transparent;
+}
+
+.service-tab:hover {
+  border: 1px solid #18CFAB;
+}
+
+.service-tab-active {
+  position: relative;
+  border: 1px solid #18cfab;
+  background-color: #18cfab;
+  color: #fff;
+}
+
+.service-tab-active::after {
+  content: "";
+  position: absolute;
+  bottom: -26px;
+  left: 82px;
+  border: solid 13px transparent;
+  border-top: solid 13px #18cfab;
+}
+
+.service-description {
+  display: flex;
+}
+
+.service-item-img {
+  width: 192px;
+  height: 139px;
+}
+
+.service-item-text {
+  margin: 0 0 0 15px;
+  width: 950px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+}

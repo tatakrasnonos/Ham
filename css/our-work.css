@@ -1,0 +1,121 @@
+.our-work-wrapper {
+  background-color: #E9EDEF;
+  padding-bottom: 100px;
+}
+
+.our-work-container {
+  display: grid;
+  justify-items: center;
+}
+
+.filter {
+  margin-bottom: 70px;
+  display: flex;
+}
+
+.filter-item {
+  padding: 15px;
+  font-size: 14px;
+  color: #717171;
+  border: 1px solid #DADADA;
+}
+
+.filter-item:not(:last-child) {
+  border-right: 1px solid transparent;
+}
+
+.filter-item:hover {
+  cursor: pointer;
+}
+
+.filter .filter-item-active {
+  color: #18CFAB;
+  border: 1px solid #18CFAB;
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.portfolio-item {
+  position: relative;
+}
+
+.portfolio-item:hover .portfolio-img {
+  opacity: 0;
+  z-index: -5;
+}
+
+.portfolio-img {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 284px;
+  height: 206px;
+}
+
+.portfolio-item-info {
+  width: 284px;
+  height: 206px;
+  border-top: 2px solid #18cfab;
+}
+
+.icons-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.circle {
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 43px;
+  height: 43px;
+  border: 1px solid #18cfab;
+  border-radius: 50%;
+}
+
+.circle:hover {
+  background-color: #18cfab;
+}
+
+.portfolio-icon {
+  color: #18cfab;
+}
+
+.circle:hover .portfolio-icon {
+  background-color: #18cfab;
+  color: #E9EDEF;
+  cursor: pointer;
+}
+
+.portfolio-item-info-text {
+  display: block;
+  text-align: center;
+}
+
+.portfolio-item-info-text:first-of-type {
+  margin-bottom: 7px;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #18CFAB;
+}
+
+.portfolio-item-info-text:last-of-type {
+  font-weight: 300;
+  font-size: 13px;
+  color: #8A8A8A;
+}
+
+.plus-icon {
+  margin-right: 15px;
+}

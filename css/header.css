@@ -1,0 +1,132 @@
+.header-container {
+  background: fixed url("../img/Sections_background/section-1\(header\).jpg") no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background: rgba(94, 93, 88, 0.6);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(94, 93, 88, 0.6);
+
+}
+
+.logo-img {
+  display: inline-block;
+  width: 58px;
+  height: 67px;
+  line-height: 67px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  background-image: url("../img/header/polygon.svg");
+  color: white;
+}
+
+
+.logo-title {
+  font-size: 32px;
+  color: white;
+}
+
+.navigation-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 660px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  min-width: 615px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-link {
+  line-height: 118px;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.nav-item:hover .nav-link,
+.search-icon:hover {
+  color: #18CFAB;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid #18CFAB;
+}
+
+.search-icon {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.header-introduction {
+  padding: 250px 0;
+}
+
+.about-us {
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 22px;
+}
+
+.about-us-text {
+  margin: 0;
+}
+
+.about-us-text:first-child {
+  font-weight: bold;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.about-us-text:nth-child(2) {
+  font-weight: bold;
+  font-size: 78px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.about-us-text:last-child {
+  font-size: 34px;
+  text-transform: capitalize;
+  color: #D4D4D4;
+}
+
+.btn-wrapper {
+  margin-top: 135px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-explore-btn {
+  margin-right: 26px;
+  background-color: #18CFAB;
+  box-shadow: 0 -5px 0 0 white;
+}
+
+.header-purchase-btn {
+  background-color: #00CBF6;
+  box-shadow: 0 -5px 0 0 white;
+}

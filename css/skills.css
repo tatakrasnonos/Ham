@@ -1,0 +1,38 @@
+.skills-container {
+  display: flex;
+  justify-content: center;
+}
+
+.skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0 110px;
+  width: 25%;
+  border-top: 8px solid #fff;
+}
+
+.skill-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 11em;
+}
+
+.skill:nth-child(odd) {
+  color: #18CFAB;
+  background: #1C2A33;
+}
+
+.skill:nth-child(even) {
+  color: white;
+  background: #18CFAB;
+}
+
+.skill-text {
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}

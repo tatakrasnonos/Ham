@@ -1,0 +1,153 @@
+.testmonials-wrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/Sections_background/section-3.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.testmonials-container {
+  display: grid;
+  justify-items: center;
+}
+
+.testmonial-heading {
+  color: #fff;
+}
+
+.quotes {
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+.testmonial-slider-item {
+  padding: 10px 0;
+  display: grid;
+  justify-items: center;
+  outline: none;
+}
+
+.testmonial-text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #BBBBBB;
+}
+
+.testmonial-author {
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #18CFAB;
+}
+
+.testmonial-author-profession {
+  margin: 0;
+  font-weight: 300;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #BBBBBB;
+}
+
+.testmonial-author-avatar {
+  margin-top: 50px;
+  width: 143px;
+  height: 143px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px rgba(31, 218, 181, 0.2);
+}
+
+
+/**************************SLIDER****************************/
+
+.arrows-container {
+  margin-top: 70px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dots-container {
+  padding: 0 40px;
+}
+
+.slick-track {
+  display: flex;
+}
+
+.slick-list {
+  max-width: 1160px;
+  overflow: hidden;
+}
+
+.slick-arrow {
+  font-size: 0;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #BBBBBB;
+  cursor: pointer;
+  outline: none;
+}
+
+.slick-prev {
+  background: center url(../img/testmonials/sl-arrow_l.svg) no-repeat;
+}
+
+.slick-prev:hover {
+  border: 1px solid #18CFAB;
+  background: center url(../img/testmonials/sl-arrow_l.svg) no-repeat, #18CFAB;
+}
+
+.slick-next {
+  background: center url(../img/testmonials/sl-arrow_r.svg) no-repeat;
+}
+
+.slick-next:hover {
+  border: 1px solid #18CFAB;
+  background: center url(../img/testmonials/sl-arrow_r.svg) no-repeat, #18CFAB;
+}
+
+.slick-dots {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-dots li:not(:last-child) {
+  margin-right: 35px;
+}
+
+.slick-dots button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(31, 218, 181, 0.2);
+  border: none;
+  outline: none;
+  font-size: 0;
+}
+
+.slick-dots li:first-child button {
+  background: center url('../img/testmonials/CE.png') no-repeat;
+  background-size: cover;
+}
+
+.slick-dots li:nth-child(2) button {
+  background: center url('../img/testmonials/DB.png') no-repeat;
+  background-size: cover;
+}
+
+.slick-dots li:nth-child(3) button {
+  background: center url('../img/testmonials/HA.png') no-repeat;
+  background-size: cover;
+}
+
+.slick-dots li:last-child button {
+  background: center url('../img/testmonials/AJ.png') no-repeat;
+  background-size: cover;
+}
+
+li.slick-active button {
+  position: relative;
+  bottom: 10px;
+}
